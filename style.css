@@ -1,0 +1,260 @@
+
+.cuadro__container {
+  background-color: #0029c4;
+}
+
+.puntospacman1 span{
+  width:0px;
+  height:0px;
+  border: 5px solid #fff;
+  position:absolute;
+  top: 50px;
+  margin:auto;
+  border-radius:50%;
+  left: 13%;
+  animation: puntospacmanuno 10s infinite;
+}
+
+.puntospacman2 span{
+  width:0px;
+  height:0px;
+  border: 5px solid #fff;
+  position:absolute;
+  top: 50px;
+  margin:auto;
+  border-radius:50%;
+  left: 23%;
+  animation: puntospacmandos 10s infinite;
+}
+
+.ojopackman span{
+  width:0px;
+  height:0px;
+  border: 5px solid #222;
+  position:absolute;
+  top: 25px;
+  left: 45px;
+  margin:auto;
+  border-radius:50%;
+  animation: ojopackman 10s infinite;
+}
+
+.pacman { 
+  width:0; 
+  height:0; 
+  border-right: 50px solid transparent; 
+  border-top: 50px solid #ff0; 
+  border-left: 50px solid #ff0; 
+  border-bottom: 50px solid #ff0; 
+  border-radius: 100%;
+  animation: packman 10s infinite;
+}
+
+@keyframes packman{
+  0%{
+    margin-left: 0px;
+  }
+  20%{
+    margin-left:10%;
+    border-right: 50px solid #ff0;
+  }
+
+  25%{
+    margin-left:15%;
+    border-right: 50px solid transparent;
+  }
+
+  30%{
+    margin-left:20%;
+    border-right: 50px solid #ff0;
+  }
+
+  35%{
+    margin-left:25%;
+    border-right: 50px solid transparent;
+  }
+
+  50%{
+    border-right: 50px solid #ff0;
+    margin-left:20%;
+  }
+
+  70%{
+   
+  }
+
+  100%{
+    
+  }
+}
+
+@keyframes ojopackman{
+  0%{
+    margin-left: 0px;
+  }
+  20%{
+    margin-left:10%;
+  }
+
+  25%{
+    margin-left:15%;
+  }
+
+  30%{
+    margin-left:20%;
+  }
+
+  35%{
+    margin-left:25%;
+  }
+
+  50%{
+    margin-left:20%;
+  }
+
+  70%{
+   
+  }
+
+  100%{
+    
+  }
+}
+
+@keyframes puntospacmanuno{
+  0%{
+
+  }
+  25%{
+    border: 0px solid transparent;
+  }
+  30%{
+
+  }
+
+  35%{
+    
+  }
+
+  40%{
+    
+  }
+
+  45%{
+    
+  }
+
+  50%{
+    
+  }
+
+  55%{
+    
+  }
+
+  60%{
+    
+  }
+
+  65%{
+    
+  }
+
+  70% {
+    
+  }
+
+  75%{
+    
+  }
+
+  80%{
+    
+  }
+
+  85%{
+    
+  }
+
+  90%{
+  }
+
+  95%{
+    
+  }
+
+  100%{
+    
+  }
+
+}
+
+@keyframes puntospacmandos{
+  0%{
+
+  }
+  25%{
+    
+  }
+
+  30%{
+
+  }
+
+  35%{
+    
+  }
+
+  40%{
+    
+  }
+
+  45%{
+    
+  }
+
+  50%{
+    
+  }
+
+  55%{
+    
+  }
+
+  60%{
+    
+  }
+
+  65%{
+    
+  }
+
+  70% {
+    
+  }
+
+  75%{
+    
+  }
+
+  80%{
+    
+  }
+
+  85%{
+    
+  }
+
+  90%{
+    border: 0px solid transparent;
+  }
+
+  95%{
+    
+  }
+
+  100%{
+    
+  }
+
+}
